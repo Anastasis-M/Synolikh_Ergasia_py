@@ -94,7 +94,6 @@ for u in range(0,100):
         for j in range(0, xd-2-i):
           if arr[j][-i-j+xd-1]=="S" and arr[j+1][-i-j+xd-2] =="O" and arr[j+2][-i-j+xd-3] =="S":
             sos = sos + 1     
-
 #μέσος όρος
 mo = sos/100
 print(mo)
